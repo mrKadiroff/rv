@@ -17,6 +17,7 @@ class HorizontalAdapter(var list: ArrayList<UserData>, var onItremClickListener:
         fun onBind(malumotlar: UserData) {
             layoutItemBinding.name.text = "${malumotlar.name} ${malumotlar.surname}"
             layoutItemBinding.rasm.setImageResource(malumotlar.image)
+            //sdsd
 
 
 
